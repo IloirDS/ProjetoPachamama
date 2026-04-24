@@ -4,10 +4,10 @@ Site informativo e cultural sobre a Bolívia, desenvolvido para a disciplina de 
 
 ## Conteúdo
 
-- **Geografia** — território, ecossistemas e dados gerais do país
-- **História** — da civilização Tiwanaku até a independência em 1825, com linha do tempo
-- **Curiosidades** — recordes e fatos pouco conhecidos sobre a Bolívia
-- **Galeria** — fotos do Salar de Uyuni, Lago Titicaca, Cerro Rico e outros pontos
+- **Geografia**: território, ecossistemas e dados gerais do país
+- **História**: da civilização Tiwanaku até a independência em 1825, com linha do tempo
+- **Curiosidades**: recordes e fatos pouco conhecidos sobre a Bolívia
+- **Galeria**: fotos do Salar de Uyuni, Lago Titicaca, Cerro Rico e outros pontos
 
 ## Tecnologias
 
