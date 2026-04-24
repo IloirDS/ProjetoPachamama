@@ -33,6 +33,3 @@ ProjetoPachamama/
 
 Abrir o `index.html` no navegador pelo Live Server. 
 
-## Autores
-
-Iloir Neto e João Pedro Araujo — turma de Aplicações para Internet.
