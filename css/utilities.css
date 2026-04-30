@@ -1,0 +1,68 @@
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.sr-only:focus {
+  position: static;
+  width: auto;
+  height: auto;
+  padding: var(--space-xs) var(--space-sm);
+  margin: 0;
+  overflow: visible;
+  clip: auto;
+  white-space: normal;
+}
+
+.u-text-center  { text-align: center; }
+.u-text-left    { text-align: left; }
+.u-text-right   { text-align: right; }
+.u-text-muted   { color: var(--color-text-secondary); }
+.u-text-inverted { color: var(--color-text-inverted); }
+.u-uppercase    { text-transform: uppercase; letter-spacing: 0.08em; }
+.u-italic       { font-style: italic; }
+.u-bold         { font-weight: 700; }
+
+.u-mb-0   { margin-bottom: 0 !important; }
+.u-mb-sm  { margin-bottom: var(--space-sm); }
+.u-mb-md  { margin-bottom: var(--space-md); }
+.u-mb-lg  { margin-bottom: var(--space-lg); }
+.u-mt-lg  { margin-top: var(--space-lg); }
+
+.u-hidden         { display: none !important; }
+.u-visually-shown { display: block !important; }
+
+.u-bg-dark    { background-color: var(--color-bg-dark); }
+.u-bg-surface { background-color: var(--color-bg-surface); }
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-bg-page:      #1C150D;
+    --color-bg-surface:   #26190F;
+    --color-text-primary: #EDE8E1;
+    --color-text-secondary: #A89880;
+    --color-border:       #3D3020;
+
+    --shadow-card:  0 1px 4px rgba(0,0,0,.2);
+    --shadow-hover: 0 4px 16px rgba(0,0,0,.35);
+  }
+
+  .data-card {
+    background: #0D0A05;
+  }
+
+  .article__quote {
+    background: #2A1F0A;
+  }
+
+  .timeline__item::before {
+    border-color: #1C150D;
+  }
+}

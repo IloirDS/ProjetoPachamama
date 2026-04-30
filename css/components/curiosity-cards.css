@@ -1,0 +1,37 @@
+.curiosity-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: var(--space-md);
+  margin-top: var(--space-lg);
+}
+
+.curiosity-card {
+  background: var(--color-bg-page);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: var(--space-md);
+  transition: box-shadow var(--transition-default), transform var(--transition-default);
+}
+
+.curiosity-card:hover {
+  box-shadow: var(--shadow-hover);
+  transform: translateY(-2px);
+}
+
+.curiosity-card__icon {
+  font-size: 2rem;
+  margin-bottom: var(--space-xs);
+  line-height: 1;
+}
+
+.curiosity-card__title {
+  font-size: var(--text-base);
+  font-family: var(--font-display);
+  margin-bottom: var(--space-xs);
+}
+
+.curiosity-card__text {
+  font-size: var(--text-sm);
+  color: var(--color-text-secondary);
+  line-height: 1.6;
+}

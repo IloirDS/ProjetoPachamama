@@ -1,0 +1,103 @@
+.article {
+  background: var(--color-bg-surface);
+  border-radius: var(--radius-md);
+  padding: var(--space-lg) var(--space-md);
+  margin-bottom: var(--space-xl);
+  border: 1px solid var(--color-border);
+  box-shadow: var(--shadow-card);
+}
+
+.article:last-child {
+  margin-bottom: 0;
+}
+
+.article__header {
+  margin-bottom: var(--space-md);
+  border-bottom: 2px solid var(--color-border);
+  padding-bottom: var(--space-md);
+}
+
+.article__tag {
+  display: inline-block;
+  background: var(--color-primary);
+  color: var(--color-text-inverted);
+  font-size: var(--text-xs);
+  font-family: var(--font-body);
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 0.2rem 0.6rem;
+  border-radius: var(--radius-sm);
+  margin-bottom: var(--space-xs);
+}
+
+.article__title {
+  font-size: var(--text-2xl);
+  margin-bottom: var(--space-xs);
+}
+
+.article__lead {
+  font-size: var(--text-lg);
+  color: var(--color-text-secondary);
+  font-style: italic;
+  line-height: 1.5;
+}
+
+.article__body {
+  margin-bottom: var(--space-md);
+}
+
+.article__body p {
+  margin-bottom: var(--space-sm);
+}
+
+.article__body p:last-child {
+  margin-bottom: 0;
+}
+
+.article__figure {
+  margin: var(--space-lg) 0;
+}
+
+.article__img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  border-radius: var(--radius-md);
+}
+
+.article__figcaption {
+  font-size: var(--text-sm);
+  color: var(--color-text-secondary);
+  font-style: italic;
+  margin-top: var(--space-xs);
+  padding-left: var(--space-sm);
+  border-left: 3px solid var(--color-border);
+}
+
+.article__quote {
+  border-left: 4px solid var(--color-accent);
+  padding: var(--space-sm) var(--space-md);
+  margin: var(--space-lg) 0;
+  background: var(--color-bg-quote);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+}
+
+.article__quote p {
+  font-size: var(--text-lg);
+  font-style: italic;
+  color: var(--color-text-secondary);
+  margin-bottom: var(--space-xs);
+}
+
+.article__quote cite {
+  font-size: var(--text-sm);
+  color: var(--color-text-secondary);
+  font-style: normal;
+}
+
+@media (min-width: 1024px) {
+  .article {
+    padding: var(--space-xl);
+  }
+}
