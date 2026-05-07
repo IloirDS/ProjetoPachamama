@@ -40,7 +40,12 @@
         <span class="site-header__title">Pachamama <em>Online</em></span>
       </div>
 
+      <button class="menu-toggle" aria-label="Abrir menu">
+        ☰
+      </button>
+
       <nav class="site-nav" aria-label="Navegação principal">
+
         <ul class="site-nav__list" role="list">
           <li class="site-nav__item">
             <a class="site-nav__link site-nav__link--active"
@@ -476,6 +481,14 @@
     </p>
   </footer>
 
+<script>
+  const menuToggle = document.querySelector('.menu-toggle');
+  const siteNav = document.querySelector('.site-nav');
+
+  menuToggle.addEventListener('click', () => {
+    siteNav.classList.toggle('active');
+  });
+</script>
 
 </body>
 </html>

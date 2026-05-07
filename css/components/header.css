@@ -22,6 +22,16 @@
   font-style: italic;
 }
 
+/* BOTÃO HAMBÚRGUER */
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
 .site-nav__list {
   display: flex;
   flex-wrap: wrap;
@@ -47,4 +57,35 @@
 .site-nav__link--active {
   background: var(--color-primary);
   color: var(--color-text-inverted);
+}
+
+/* RESPONSIVO */
+@media (max-width: 768px) {
+
+  .site-header__inner {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .site-nav {
+    display: none;
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  .site-nav.active {
+    display: block;
+  }
+
+  .site-nav__list {
+    flex-direction: column;
+    align-items: center;
+  }
+
 }
