@@ -1,0 +1,28 @@
+:root {
+
+  --color-primary:       var(--_red);
+  --color-primary-hover: var(--_earth);
+
+  --color-accent:        var(--_yellow);
+  --color-success:       var(--_green);
+
+  --color-brand-dark:    var(--_earth);
+
+  --color-text-primary:   var(--_ink);
+  --color-text-secondary: var(--_muted);
+
+  --color-text-inverted: var(--_white);
+
+  --color-text-muted-inv: rgba(255,255,255,.75);
+  --color-text-faint-inv: rgba(255,255,255,.5);
+
+  --color-bg-page:    var(--_stone);
+  --color-bg-surface: var(--_white);
+  --color-bg-dark:    var(--_ink);
+
+  --color-bg-quote:   #FDF8EF;
+
+  --color-border:      var(--_border);
+  --color-border-dark: rgba(255,255,255,.1);
+
+}

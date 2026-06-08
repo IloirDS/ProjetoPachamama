@@ -1,3 +1,5 @@
+@layer article {
+
 .article {
   background: var(--color-bg-surface);
   border-radius: var(--radius-md);
@@ -100,4 +102,6 @@
   .article {
     padding: var(--space-xl);
   }
+}
+
 }

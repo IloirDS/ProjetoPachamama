@@ -1,3 +1,5 @@
+@layer timeline {
+
 .timeline {
   margin-top: var(--space-lg);
   padding-top: var(--space-md);
@@ -57,4 +59,6 @@
 .timeline__desc {
   font-size: var(--text-sm);
   color: var(--color-text-secondary);
+}
+
 }

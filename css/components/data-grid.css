@@ -1,3 +1,5 @@
+@layer data-grid {
+
 .data-grid {
   margin-top: var(--space-lg);
   padding-top: var(--space-md);
@@ -47,4 +49,6 @@
   .data-grid__cards {
     grid-template-columns: repeat(4, 1fr);
   }
+}
+
 }

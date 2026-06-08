@@ -1,3 +1,5 @@
+@layer navbar {
+
 .site-header__brand {
   display: flex;
   align-items: center;
@@ -87,5 +89,7 @@
     flex-direction: column;
     align-items: center;
   }
+
+}
 
 }

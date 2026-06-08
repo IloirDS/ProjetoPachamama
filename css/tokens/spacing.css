@@ -1,0 +1,22 @@
+:root {
+
+  --space-xs: 0.5rem;
+  --space-sm: 1rem;
+  --space-md: 1.5rem;
+  --space-lg: 2rem;
+  --space-xl: 3rem;
+  --space-2xl: 4rem;
+
+  --layout-max-width: 1200px;
+  --layout-sidebar: 280px;
+
+  --radius-sm: 4px;
+  --radius-md: 8px;
+
+  --shadow-card: 0 1px 4px rgba(26,18,9,.06);
+  --shadow-hover: 0 4px 16px rgba(26,18,9,.12);
+
+  --transition-default: 0.25s ease;
+  --transition-img: 0.4s ease;
+
+}

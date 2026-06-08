@@ -1,3 +1,5 @@
+@layer sidebar {
+
 .sidebar__widget {
   background: var(--color-bg-surface);
   border: 1px solid var(--color-border);
@@ -95,3 +97,5 @@
 .eco-list__badge--blue   { background: #2980B9; }
 .eco-list__badge--green  { background: var(--color-success); }
 .eco-list__badge--yellow { background: #C8961E; }
+
+}
