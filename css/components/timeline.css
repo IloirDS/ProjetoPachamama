@@ -1,3 +1,17 @@
+/*
+COMPONENTE: TIMELINE
+Linha do tempo utilizada para apresentar marcos históricos.
+Tokens:
+- --color-primary
+- --color-border
+- --color-text-secondary
+- --space-sm
+- --space-md
+- --space-lg
+Estados:
+- Nenhum estado interativo relevante
+*/
+
 @layer timeline {
 
 .timeline {

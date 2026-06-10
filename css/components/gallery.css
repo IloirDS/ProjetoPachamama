@@ -1,3 +1,15 @@
+/*
+COMPONENTE: GALLERY
+Galeria de imagens do projeto.
+Tokens:
+- --space-sm
+- --space-md
+- --radius-md
+- --color-text-secondary
+Estados:
+- Nenhum estado interativo relevante
+*/
+
 @layer gallery {
 
 .gallery-section {

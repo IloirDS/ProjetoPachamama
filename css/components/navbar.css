@@ -1,3 +1,19 @@
+/*
+COMPONENTE: NAVBAR
+Menu principal de navegação.
+Tokens:
+- --color-primary
+- --color-accent
+- --color-text-inverted
+- --text-xs
+- --space-xs
+- --radius-sm
+Estados:
+- .site-nav__link:hover
+- .site-nav__link--active
+- .site-nav.active
+*/
+
 @layer navbar {
 
 .site-header__brand {

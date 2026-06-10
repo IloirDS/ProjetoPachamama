@@ -1,3 +1,17 @@
+/*
+COMPONENTE: SIDEBAR
+Barra lateral contendo informações rápidas e widgets do projeto.
+Tokens:
+- --color-bg-surface
+- --color-border
+- --color-primary
+- --space-sm
+- --space-md
+- --radius-md
+Estados:
+- Nenhum estado interativo relevante
+*/
+
 @layer sidebar {
 
 .sidebar__widget {

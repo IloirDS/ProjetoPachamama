@@ -1,3 +1,17 @@
+/*
+COMPONENTE: DATA GRID
+Exibe informações resumidas da Bolívia em formato de cartões.
+Tokens:
+- --color-bg-surface
+- --color-border
+- --color-primary
+- --space-sm
+- --space-md
+- --radius-md
+Estados:
+- Nenhum estado interativo relevante
+*/
+
 @layer data-grid {
 
 .data-grid {

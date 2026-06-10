@@ -1,3 +1,17 @@
+/*
+COMPONENTE: CURIOSITY CARDS
+Cartões utilizados para apresentar curiosidades sobre a Bolívia.
+Tokens:
+- --color-bg-surface
+- --color-border
+- --color-primary
+- --space-sm
+- --space-md
+- --radius-md
+Estados:
+- :hover (caso exista efeito de destaque)
+*/
+
 .curiosity-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));

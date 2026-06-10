@@ -1,3 +1,21 @@
+/*
+COMPONENTE: ARTICLE
+Componente responsável pela exibição
+dos artigos do guia.
+Tokens:
+- --color-bg-surface
+- --color-border
+- --color-text-primary
+- --color-text-secondary
+- --space-sm
+- --space-md
+- --space-lg
+- --radius-sm
+- --radius-md
+Estados:
+- Nenhum estado interativo relevante
+*/
+
 @layer article {
 
 .article {

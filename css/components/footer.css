@@ -1,3 +1,15 @@
+/*
+COMPONENTE: FOOTER
+Rodapé institucional do site.
+Tokens:
+- --color-bg-dark
+- --color-text-inverted
+- --space-sm
+- --space-md
+Estados:
+- Links :hover
+*/
+
 @layer footer {
 
 .site-footer {

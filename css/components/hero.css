@@ -1,3 +1,21 @@
+/*
+COMPONENTE: HERO
+Seção principal de destaque da página.
+Tokens:
+- --color-primary
+- --color-accent
+- --color-text-inverted
+- --text-hero
+- --text-lg
+- --space-xs
+- --space-md
+- --space-lg
+- --radius-sm
+Estados:
+- .hero__cta:hover
+- :focus-visible (global)
+*/
+
 @layer components {
 
 .hero__kicker {
